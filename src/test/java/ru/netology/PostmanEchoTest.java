@@ -13,7 +13,7 @@ public class PostmanEchoTest {
         String text = "Hi, friend!";
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Hi, friend!") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("Hellogit") // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
                 .when()
                 .post("/post")
