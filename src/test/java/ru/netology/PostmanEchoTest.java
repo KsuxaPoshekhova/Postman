@@ -10,10 +10,10 @@ public class PostmanEchoTest {
     void postmanTest() {
         // Given - When - Then
         // Предусловия
-        String text = "Hi, friend!";
+        String text = "Higit";
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Hellogit") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("Hi") // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
                 .when()
                 .post("/post")
